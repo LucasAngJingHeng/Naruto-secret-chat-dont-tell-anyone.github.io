@@ -1,1 +1,1 @@
-# Naruto-secret-chat-dont-tell-anyone.github.io
+# Naruto-secret-chat.github.io
