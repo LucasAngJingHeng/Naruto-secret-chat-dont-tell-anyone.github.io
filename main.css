@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(135deg,#d503ff,#03d5ff);
+}
+
+.header h1{
+    color: aqua;
+    text-align: center;
+    font-family: 'Press Start 2p',cursive;
+}
+
+.header button{
+    display: block;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    font-size: 18px;
+    padding: 10px;
+    color: #03d5ff;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Press Start 2p',cursive;
+}
+
+.note{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: solid 5px black;
+    position:absolute
+}
+
+.toolbar{
+    background-color: aliceblue;
+    text-align: right;
+}
+
+.toolbar span{
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+    font-weight: 800;
+}
+
+.editable{
+    height: 88%;
+    overflow-y: scroll;
+}
